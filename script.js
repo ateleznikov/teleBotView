@@ -20,3 +20,4 @@ async function fetchBalanceData() {
         console.error('Error:', error);
     }
 }
+window.addEventListener('load', fetchBalanceData);
